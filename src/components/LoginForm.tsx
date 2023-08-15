@@ -49,7 +49,7 @@ const LoginForm = () => {
         type="email"
         name="email"
         onChange={handleChange}
-        label="IChat Email"
+        label="Email"
       />
       <TextField
         required
