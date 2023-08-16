@@ -1,6 +1,7 @@
 import { env } from "@/env.mjs";
 
 export function registerHtml(token: string) {
+  console.log('i love cum, ', env.URL)
   return `
   <!DOCTYPE html>
   <html>
